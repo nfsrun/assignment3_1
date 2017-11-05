@@ -1,9 +1,11 @@
 // Name         : LinkedStack.h
 // Modified     : Kevin Tran
-// Version      : 1.00 -- Initial Commit
-// Description  : LinkedStack class implements itself as if it was a LinkedList but behaviorally acts as if it was a
-// Stack. It's public methods are there as if it was a Stack. It's private variables are similar to those seen in
-// LinkedList and Stack. This LinkedStack, like other structures, can be used for different types of Object types.
+// Version      : 1.01 -- Added getElementCount() method
+// Description  : LinkedStack class implements itself as if it was a LinkedList
+// but behaviorally acts as if it was a Stack. It's public methods are there as
+// if it was a Stack. It's private variables are similar to those seen in
+// LinkedList and Stack. This LinkedStack, like other structures, can be used
+// for different types of Object types.
 
 #ifndef ASSIGNMENT3_1_LINKEDSTACK_H
 #define ASSIGNMENT3_1_LINKEDSTACK_H
@@ -18,14 +20,14 @@ struct node{
     node<T>* next;
 };
 
-//LinkedStack class definition with elements of LinkedList and Stack. Overrides the << operator so actual information
-//can be outputted effectively.
+//LinkedStack class definition with elements of LinkedList and Stack. Overrides
+// the << operator so actual information can be outputted effectively.
 
 template <class T>
 class LinkedStack {
 
-    //curSize is the current number of elements inside the LinkedStack can have while size is the maximum number of
-    //elements that a LinkedStack can hold.
+    //curSize is the current number of elements inside the LinkedStack can have 
+    //while size is the maximum number of elements that a LinkedStack can hold.
     int size, curSize;
 
     //Utilizes same node system as seen in LinkedList.
@@ -35,6 +37,7 @@ public:
     LinkedStack(int=-1);
     bool isEmpty();
     bool isFull();
+    int getElementCount();
     void destroy();
     void push(T&);
     T pop();
@@ -44,8 +47,15 @@ public:
     virtual ~LinkedStack();
 };
 
-//Constructor (also the default) that takes in a integer that limits the size of the LinkedStack. It has the ability to
-//be not size bounded (unlimited) by setting the size to -1.
+//currentSize outputs the number of elements currently in the LinkedStack.  
+template <class T>
+int LinkedStack<T>::getElementCount(){
+    return this->curSize;
+}
+
+//Constructor (also the default) that takes in a integer that limits the size of
+//the LinkedStack. It has the ability to be not size bounded (unlimited) by
+// setting the size to -1.
 template <class T>
 LinkedStack<T>::LinkedStack(int sizeSet) {
 
@@ -58,8 +68,9 @@ LinkedStack<T>::LinkedStack(int sizeSet) {
     this->size = sizeSet;
 }
 
-//overloaded output operator will print all elements in the stack from the bottom(left-most output) to the top(right
-//most output). Warning message will pop out in console in case the LinkedStack was empty.
+//overloaded output operator will print all elements in the stack from the
+//bottom(left-most output) to the top(right most output). Warning message will
+// pop out in console in case the LinkedStack was empty.
 template <class T>
 ostream& operator<<(ostream& os, const LinkedStack<T>* stack){
     if (stack->curSize!=0){
@@ -76,7 +87,8 @@ ostream& operator<<(ostream& os, const LinkedStack<T>* stack){
     return os;
 }
 
-//Default (virtual) destructor which calls destroy to destroy the current LinkedStack.
+//Default (virtual) destructor which calls destroy to destroy the current
+//LinkedStack.
 template <class T>
 LinkedStack<T>::~LinkedStack() {
     destroy();
@@ -88,14 +100,16 @@ bool LinkedStack<T>::isEmpty(){
     return curSize==0;
 }
 
-//checks to see if the number of items in the stack reaches the stated max number of elements for that LinkedStack.
+//checks to see if the number of items in the stack reaches the stated max
+//number of elements for that LinkedStack.
 template <class T>
 bool LinkedStack<T>::isFull(){
     return size>-1&&curSize==size;
 }
 
-//push method takes in the item of type T and puts it into the LinkedStack. Warning message will pop out in console in
-//case the LinkedStack is already full upon attempted adding.
+//push method takes in the item of type T and puts it into the LinkedStack.
+//Warning message will pop out in console in case the LinkedStack is already
+//full upon attempted adding.
 template <class T>
 void LinkedStack<T>::push(T& data1){
 
@@ -117,8 +131,8 @@ void LinkedStack<T>::push(T& data1){
     }
 }
 
-//pop takes out the last element from the LinkedStack and returns it. Warning message will pop out in console in case
-//the LinkedStack was empty.
+//pop takes out the last element from the LinkedStack and returns it. Warning
+//message will pop out in console in case the LinkedStack was empty.
 template <class T>
 T LinkedStack<T>::pop(){
     if(!isEmpty()){
@@ -148,8 +162,8 @@ T LinkedStack<T>::pop(){
     }
 }
 
-//printTop prints the top element of the LinkedStack (the last in). Warning message will pop out in console in case the
-//LinkedStack was empty.
+//printTop prints the top element of the LinkedStack (the last in). Warning
+//message will pop out in console in case the LinkedStack was empty.
 template <class T>
 T LinkedStack<T>::printTop(){
     if(!isEmpty()){

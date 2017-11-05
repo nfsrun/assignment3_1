@@ -1,13 +1,16 @@
 // Name         : main.cpp
 // Author       : Kevin Tran
-// Version      : 1.00 -- Initial Commit
-// Description  : main.cpp class has a commented main method that can be uncommented to test LinkedStacks of different
-// cases. When uncommented, the console program performs tests on 5 different sizes of LinkedStacks. These sizes are
-// unlimited, one, and three. They will be tested in extreme cases like successful empty checking, successful popping,
-// over popping, successful pushing, over pushing, printing in empty and non-empty cases,reading top value of empty and
-// non-empty cases, and checking if LinkedStacks are full in empty, full, and unlimited sizes. Other than the three
-// foretold sizes, there is also size 0 and -1, both of which should print a console message and default back to
-// unlimited (size=-1).
+// Version      : 1.01 -- Added getElementCount() tests. 
+// Description  : main.cpp class has a commented main method that can be
+// uncommented to test LinkedStacks of different cases. When uncommented, the
+// console program performs tests on 5 different sizes of LinkedStacks. These
+// sizes are unlimited, one, and three. They will be tested in extreme cases
+// like successful empty checking, successful popping, over popping, successful
+// pushing, over pushing, printing in empty and non-empty cases,reading top
+// value of empty and non-empty cases, and checking if LinkedStacks are full in
+// empty, full, and unlimited sizes. Other than the three foretold sizes, there
+// is also size 0 and -1, both of which should print a console message and
+// default back to unlimited (size=-1).
 
 #include "LinkedStack.h"
 
@@ -32,13 +35,16 @@ int main() {
     cout<<"Top of stack: "<<max1->printTop();
     cout<<endl;
     cout<<"Expected one integer output: "<<max1<<endl;
+    cout<<"Expected size (Number of elements) to be 1: "<<getElementCount();
+    cout<<endl;
     cout<<"LinkedStack of max1 isFull? "<<max1->isFull()<<endl;
     cout<<"Attempt to add 1 to max1 again. Expect error message. "<<endl;
     max1->push(j);
     cout<<"Remove only one value from top of stack: "<<max1->pop()<<endl;
     cout<<"LinkedStack of max1 isFull? "<<max1->isFull()<<endl;
     cout<<"Expected empty output: "<<max1<<endl;
-    cout<<"Attempt to remove top value from max1 again. Expect error message. "<<endl;
+    cout<<"Attempt to remove top value from max1 again. Expect error message. ";
+    cout<<endl;
     max1->pop();
     cout<<endl;
 
@@ -53,31 +59,44 @@ int main() {
     cout<<"Added 3 to max3"<<endl;
     max3->push(j=3);
     cout<<"Expected three integers outputed: "<<max3<<endl;
+    cout<<"Expected size (Number of elements) to be 3: "<<getElementCount();
+    cout<<endl;
     cout<<"LinkedStack of max1 isFull? "<<max1->isFull()<<endl;
     cout<<"Attempt to add 1 to max3 again. Expect error message. "<<endl;
     max3->push(j);
     cout<<"Remove only one value from top of stack: "<<max3->pop()<<endl;
     cout<<"Remove only one value from top of stack: "<<max3->pop()<<endl;
     cout<<"Remove only one value from top of stack: "<<max3->pop()<<endl;
-    cout<<"Attempt to remove top from unlimited again. Expect error message. "<<endl;
+    cout<<"Attempt to remove top from unlimited again. Expect error message. ";
+    cout<<endl;
     max3->pop();
     cout<<"Expected empty output: "<<max3<<endl;
 
 
     //Unlimited Stack testing
-    cout<<endl<<endl<<"LinkedStack of unlimited isEmpty? "<<unlimited->isEmpty()<<endl;
-    cout<<"LinkedStack of unlimited should always be isFull=0? "<<unlimited->isFull()<<endl;
+    cout<<endl<<endl<<"LinkedStack of unlimited isEmpty? "<<
+        unlimited->isEmpty();
+    cout<<endl;
+    cout<<"LinkedStack of unlimited should always be isFull=0? "<<
+        unlimited->isFull();
+    cout<<endl;
     cout<<"Expected empty output: "<<unlimited<<endl;
     for(int i=0; i<10; i++){
         cout<<"Added "<<i<<" to unlimited LinkedStack"<<endl;
         unlimited->push(j=i);
     }
-    cout<<"LinkedStack of unlimited should always be isFull=0? "<<unlimited->isFull()<<endl;
+    cout<<"Expected size (Number of elements) to be 10: "<<getElementCount();
+    cout<<endl;
+    cout<<"LinkedStack of unlimited should always be isFull=0? "<<
+        unlimited->isFull();
+    cout<<endl;
     cout<<"Expected ten integer elements outputed: "<<unlimited<<endl;
     for(int i=0; i<10; i++){
         cout<<"Added "<<unlimited->pop()<<" to unlimited LinkedStack"<<endl;
     }
-    cout<<"LinkedStack of unlimited should always be isFull=0? "<<unlimited->isFull()<<endl;
+    cout<<"LinkedStack of unlimited should always be isFull=0? "<<
+        unlimited->isFull();
+    cout<<endl;
     cout<<"Attempt to remove top from max1 again. Expect error message. "<<endl;
     max3->pop();
     cout<<"Expected empty output: "<<unlimited<<endl;
