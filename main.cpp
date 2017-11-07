@@ -1,6 +1,6 @@
 // Name         : main.cpp
 // Author       : Kevin Tran
-// Version      : 1.01 -- Added getElementCount() tests. 
+// Version      : 1.02 -- Fixed getElementCount() tests.
 // Description  : main.cpp class has a commented main method that can be
 // uncommented to test LinkedStacks of different cases. When uncommented, the
 // console program performs tests on 5 different sizes of LinkedStacks. These
@@ -35,7 +35,8 @@ int main() {
     cout<<"Top of stack: "<<max1->printTop();
     cout<<endl;
     cout<<"Expected one integer output: "<<max1<<endl;
-    cout<<"Expected size (Number of elements) to be 1: "<<getElementCount();
+    cout<<"Expected size (Number of elements) to be 1: ";
+    cout<<max1->getElementCount();
     cout<<endl;
     cout<<"LinkedStack of max1 isFull? "<<max1->isFull()<<endl;
     cout<<"Attempt to add 1 to max1 again. Expect error message. "<<endl;
@@ -59,7 +60,8 @@ int main() {
     cout<<"Added 3 to max3"<<endl;
     max3->push(j=3);
     cout<<"Expected three integers outputed: "<<max3<<endl;
-    cout<<"Expected size (Number of elements) to be 3: "<<getElementCount();
+    cout<<"Expected size (Number of elements) to be 3: ";
+         cout<<max3->getElementCount();
     cout<<endl;
     cout<<"LinkedStack of max1 isFull? "<<max1->isFull()<<endl;
     cout<<"Attempt to add 1 to max3 again. Expect error message. "<<endl;
@@ -85,7 +87,8 @@ int main() {
         cout<<"Added "<<i<<" to unlimited LinkedStack"<<endl;
         unlimited->push(j=i);
     }
-    cout<<"Expected size (Number of elements) to be 10: "<<getElementCount();
+    cout<<"Expected size (Number of elements) to be 10: ";
+        cout<<unlimited->getElementCount();
     cout<<endl;
     cout<<"LinkedStack of unlimited should always be isFull=0? "<<
         unlimited->isFull();

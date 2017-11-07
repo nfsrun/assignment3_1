@@ -1,6 +1,6 @@
 // Name         : LinkedStack.h
 // Modified     : Kevin Tran
-// Version      : 1.01 -- Added getElementCount() method
+// Version      : 1.02 -- Fixed push method.
 // Description  : LinkedStack class implements itself as if it was a LinkedList
 // but behaviorally acts as if it was a Stack. It's public methods are there as
 // if it was a Stack. It's private variables are similar to those seen in
@@ -59,10 +59,11 @@ int LinkedStack<T>::getElementCount(){
 template <class T>
 LinkedStack<T>::LinkedStack(int sizeSet) {
 
-    //if it is 0 or some negative integer other than -1, output a warning to console and default the size to unlimited
-    //(size to -1)
+    //if it is 0 or some negative integer other than -1, output a warning to
+    //console and default the size to unlimited (size to -1)
     if(sizeSet<-1 || sizeSet==0){
-        cout<<"Size cannot be zero or less than -1. All are unknown operation values. Defaulted to unlimited (-1). ";
+        cout<<"Size cannot be zero or less than -1. All are unknown operation "
+                << "values. Defaulted to unlimited (-1). ";
         sizeSet=-1;
     }
     this->size = sizeSet;
@@ -113,14 +114,15 @@ bool LinkedStack<T>::isFull(){
 template <class T>
 void LinkedStack<T>::push(T& data1){
 
-    //if this if statement is valid, then the first node (front), will have its data filled.
+    //if this if statement is valid, then the first node (front), will have its
+    //data filled.
     if(this->front==NULL){
         this->front=this->back = new node<T>;
         this->front->data=data1;
         this->curSize++;
 
-    //else if the LinkedStack is not full at the moment, make another node next to it so new data can be added to the
-    //rear.
+    //else if the LinkedStack is not full at the moment, make another node next
+    //to it so new data can be added to the rear.
     }else if(!isFull()){
         this->back->next = new node<T>;
         this->back=back->next;
@@ -137,8 +139,8 @@ template <class T>
 T LinkedStack<T>::pop(){
     if(!isEmpty()){
 
-        //there are two nodes, find will find the last node while findBefore will keep the reference of the node before
-        //the lsat node.
+        //there are two nodes, find will find the last node while findBefore
+        //will keep the reference of the node before the lsat node.
         node<T> *find = this->front;
         node<T> *findBefore;
         while(find!=this->back){
@@ -149,11 +151,12 @@ T LinkedStack<T>::pop(){
         //Keeps a reference of the item in the last node to return later.
         T d = this->back->data;
 
-        //the findBefore node is used to reaffix the back node to the correct node that still exists and is the new back
-        //node.
+        //the findBefore node is used to reaffix the back node to the correct
+        //node that still exists and is the new back node.
         this->back=findBefore;
 
-        //finally delete the last node, change the current item size, and return the temporary item.
+        //finally delete the last node, change the current item size, and return
+        //the temporary item.
         delete find;
         curSize--;
         return d;

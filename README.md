@@ -1,6 +1,6 @@
 # assignment3_1: LinkedStack.h
 ## Created By Kevin Tran
-## Finished Version: 1.01 - 05/11/2017
+## Finished Version: 1.02 - 06/11/2017
 ## CS300 - Assignment 3
 ## Professor Fatma Serce
 
@@ -14,6 +14,7 @@ next two parts of the assignment.
 ### Version Log
 ## 1.00 -- Initial Commit. - 04/11/2017
 ## 1.01 -- Added getElementCount() method and tests. - 05/11/2017
+## 1.02 -- Fixed push() method. - 06/11/2017
 
 ### Clarifications on Instructions
 #### As of 11/05/2017
