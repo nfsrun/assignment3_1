@@ -1,6 +1,6 @@
 // Name         : main.cpp
 // Author       : Kevin Tran
-// Version      : 1.02 -- Fixed getElementCount() tests.
+// Version      : 1.02 -- Fixed push method.
 // Description  : main.cpp class has a commented main method that can be
 // uncommented to test LinkedStacks of different cases. When uncommented, the
 // console program performs tests on 5 different sizes of LinkedStacks. These

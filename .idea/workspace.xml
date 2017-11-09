@@ -12,18 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bbf8bd0-a699-477d-9329-fadf13a9bd57" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_C.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_CXX.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/a.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/a.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/a.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/a.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assignment3_1.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assignment3_1.dir/main.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedStack.h" afterPath="$PROJECT_DIR$/LinkedStack.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +30,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="34">
-                <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+              <first_editor relative-caret-position="289">
+                <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -48,22 +39,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="113" column="2" lean-forward="false" selection-start-line="113" selection-start-column="2" selection-end-line="113" selection-end-column="2" />
+            <state relative-caret-position="306">
+              <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedStack.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LinkedStack.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LinkedStack.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="3145">
+              <caret line="185" column="1" lean-forward="false" selection-start-line="185" selection-start-column="1" selection-end-line="185" selection-end-column="1" />
+              <folding>
+                <element signature="e#601#610#0" expanded="true" />
+                <element signature="e#820#829#0" expanded="true" />
+                <element signature="e#1308#1317#0" expanded="true" />
+                <element signature="e#1508#1517#0" expanded="true" />
+                <element signature="e#1779#1788#0" expanded="true" />
+                <element signature="e#2437#2446#0" expanded="true" />
+                <element signature="e#2970#2979#0" expanded="true" />
+                <element signature="e#3107#3116#0" expanded="true" />
+                <element signature="e#3302#3311#0" expanded="true" />
+                <element signature="e#3573#3582#0" expanded="true" />
+                <element signature="e#4369#4378#0" expanded="true" />
+                <element signature="e#5409#5418#0" expanded="true" />
+                <element signature="e#5669#5678#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,9 +97,9 @@
         <option value="$PROJECT_DIR$/LinkedList.h" />
         <option value="$PROJECT_DIR$/Stack.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/LinkedStack.h" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/LinkedStack.h" />
       </list>
     </option>
   </component>
@@ -195,23 +200,28 @@
       <workItem from="1509994394584" duration="165000" />
       <workItem from="1509995380669" duration="868000" />
       <workItem from="1510027729718" duration="1000" />
-      <workItem from="1510027739147" duration="1320000" />
+      <workItem from="1510027739147" duration="1443000" />
+      <workItem from="1510036547217" duration="608000" />
+      <workItem from="1510212172980" duration="179000" />
+      <workItem from="1510213117807" duration="21000" />
+      <workItem from="1510213204057" duration="8000" />
+      <workItem from="1510213222399" duration="63000" />
+      <workItem from="1510213565485" duration="48000" />
+      <workItem from="1510213784131" duration="30000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30629000" />
+    <option name="totallyTimeSpent" value="31709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.118229166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32767764" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3244963" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34252387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3418108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -219,6 +229,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34146342" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -247,6 +258,159 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedStack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3196">
+          <caret line="188" column="0" lean-forward="true" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+          <folding>
+            <element signature="e#601#610#0" expanded="true" />
+            <element signature="e#820#829#0" expanded="true" />
+            <element signature="e#1308#1317#0" expanded="true" />
+            <element signature="e#1508#1517#0" expanded="true" />
+            <element signature="e#1779#1788#0" expanded="true" />
+            <element signature="e#2437#2446#0" expanded="true" />
+            <element signature="e#2970#2979#0" expanded="true" />
+            <element signature="e#3107#3116#0" expanded="true" />
+            <element signature="e#3302#3311#0" expanded="true" />
+            <element signature="e#3573#3582#0" expanded="true" />
+            <element signature="e#4369#4378#0" expanded="true" />
+            <element signature="e#5409#5418#0" expanded="true" />
+            <element signature="e#5669#5678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="289">
+            <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedStack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="43" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+          <folding>
+            <element signature="e#601#610#0" expanded="true" />
+            <element signature="e#820#829#0" expanded="true" />
+            <element signature="e#1308#1317#0" expanded="true" />
+            <element signature="e#1508#1517#0" expanded="true" />
+            <element signature="e#1779#1788#0" expanded="true" />
+            <element signature="e#2437#2446#0" expanded="true" />
+            <element signature="e#2970#2979#0" expanded="true" />
+            <element signature="e#3107#3116#0" expanded="true" />
+            <element signature="e#3302#3311#0" expanded="true" />
+            <element signature="e#3573#3582#0" expanded="true" />
+            <element signature="e#4369#4378#0" expanded="true" />
+            <element signature="e#5409#5418#0" expanded="true" />
+            <element signature="e#5669#5678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedStack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+          <folding>
+            <element signature="e#601#610#0" expanded="true" />
+            <element signature="e#820#829#0" expanded="true" />
+            <element signature="e#1308#1317#0" expanded="true" />
+            <element signature="e#1508#1517#0" expanded="true" />
+            <element signature="e#1779#1788#0" expanded="true" />
+            <element signature="e#2437#2446#0" expanded="true" />
+            <element signature="e#2970#2979#0" expanded="true" />
+            <element signature="e#3107#3116#0" expanded="true" />
+            <element signature="e#3302#3311#0" expanded="true" />
+            <element signature="e#3573#3582#0" expanded="true" />
+            <element signature="e#4369#4378#0" expanded="true" />
+            <element signature="e#5409#5418#0" expanded="true" />
+            <element signature="e#5669#5678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedStack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <folding>
+            <element signature="e#601#610#0" expanded="true" />
+            <element signature="e#820#829#0" expanded="true" />
+            <element signature="e#1308#1317#0" expanded="true" />
+            <element signature="e#1508#1517#0" expanded="true" />
+            <element signature="e#1779#1788#0" expanded="true" />
+            <element signature="e#2437#2446#0" expanded="true" />
+            <element signature="e#2970#2979#0" expanded="true" />
+            <element signature="e#3107#3116#0" expanded="true" />
+            <element signature="e#3302#3311#0" expanded="true" />
+            <element signature="e#3573#3582#0" expanded="true" />
+            <element signature="e#4369#4378#0" expanded="true" />
+            <element signature="e#5409#5418#0" expanded="true" />
+            <element signature="e#5669#5678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -270,7 +434,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2907">
           <caret line="171" column="19" lean-forward="false" selection-start-line="171" selection-start-column="19" selection-end-line="171" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="e#601#610#0" expanded="true" />
+            <element signature="e#820#829#0" expanded="true" />
+            <element signature="e#1308#1317#0" expanded="true" />
+            <element signature="e#1508#1517#0" expanded="true" />
+            <element signature="e#1779#1788#0" expanded="true" />
+            <element signature="e#2437#2446#0" expanded="true" />
+            <element signature="e#2970#2979#0" expanded="true" />
+            <element signature="e#3107#3116#0" expanded="true" />
+            <element signature="e#3302#3311#0" expanded="true" />
+            <element signature="e#3573#3582#0" expanded="true" />
+            <element signature="e#4369#4378#0" expanded="true" />
+            <element signature="e#5409#5418#0" expanded="true" />
+            <element signature="e#5669#5678#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -297,7 +475,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2856">
           <caret line="168" column="19" lean-forward="true" selection-start-line="168" selection-start-column="19" selection-end-line="168" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="e#601#610#0" expanded="true" />
+            <element signature="e#820#829#0" expanded="true" />
+            <element signature="e#1308#1317#0" expanded="true" />
+            <element signature="e#1508#1517#0" expanded="true" />
+            <element signature="e#1779#1788#0" expanded="true" />
+            <element signature="e#2437#2446#0" expanded="true" />
+            <element signature="e#2970#2979#0" expanded="true" />
+            <element signature="e#3107#3116#0" expanded="true" />
+            <element signature="e#3302#3311#0" expanded="true" />
+            <element signature="e#3573#3582#0" expanded="true" />
+            <element signature="e#4369#4378#0" expanded="true" />
+            <element signature="e#5409#5418#0" expanded="true" />
+            <element signature="e#5669#5678#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -335,7 +527,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-          <folding />
+          <folding>
+            <element signature="e#601#610#0" expanded="true" />
+            <element signature="e#820#829#0" expanded="true" />
+            <element signature="e#1308#1317#0" expanded="true" />
+            <element signature="e#1508#1517#0" expanded="true" />
+            <element signature="e#1779#1788#0" expanded="true" />
+            <element signature="e#2437#2446#0" expanded="true" />
+            <element signature="e#2970#2979#0" expanded="true" />
+            <element signature="e#3107#3116#0" expanded="true" />
+            <element signature="e#3302#3311#0" expanded="true" />
+            <element signature="e#3573#3582#0" expanded="true" />
+            <element signature="e#4369#4378#0" expanded="true" />
+            <element signature="e#5409#5418#0" expanded="true" />
+            <element signature="e#5669#5678#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -370,7 +576,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#601#610#0" expanded="true" />
+            <element signature="e#820#829#0" expanded="true" />
+            <element signature="e#1308#1317#0" expanded="true" />
+            <element signature="e#1508#1517#0" expanded="true" />
+            <element signature="e#1779#1788#0" expanded="true" />
+            <element signature="e#2437#2446#0" expanded="true" />
+            <element signature="e#2970#2979#0" expanded="true" />
+            <element signature="e#3107#3116#0" expanded="true" />
+            <element signature="e#3302#3311#0" expanded="true" />
+            <element signature="e#3573#3582#0" expanded="true" />
+            <element signature="e#4369#4378#0" expanded="true" />
+            <element signature="e#5409#5418#0" expanded="true" />
+            <element signature="e#5669#5678#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -404,7 +624,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding />
+          <folding>
+            <element signature="e#601#610#0" expanded="true" />
+            <element signature="e#820#829#0" expanded="true" />
+            <element signature="e#1308#1317#0" expanded="true" />
+            <element signature="e#1508#1517#0" expanded="true" />
+            <element signature="e#1779#1788#0" expanded="true" />
+            <element signature="e#2437#2446#0" expanded="true" />
+            <element signature="e#2970#2979#0" expanded="true" />
+            <element signature="e#3107#3116#0" expanded="true" />
+            <element signature="e#3302#3311#0" expanded="true" />
+            <element signature="e#3573#3582#0" expanded="true" />
+            <element signature="e#4369#4378#0" expanded="true" />
+            <element signature="e#5409#5418#0" expanded="true" />
+            <element signature="e#5669#5678#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -428,7 +662,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="e#601#610#0" expanded="true" />
+            <element signature="e#820#829#0" expanded="true" />
+            <element signature="e#1308#1317#0" expanded="true" />
+            <element signature="e#1508#1517#0" expanded="true" />
+            <element signature="e#1779#1788#0" expanded="true" />
+            <element signature="e#2437#2446#0" expanded="true" />
+            <element signature="e#2970#2979#0" expanded="true" />
+            <element signature="e#3107#3116#0" expanded="true" />
+            <element signature="e#3302#3311#0" expanded="true" />
+            <element signature="e#3573#3582#0" expanded="true" />
+            <element signature="e#4369#4378#0" expanded="true" />
+            <element signature="e#5409#5418#0" expanded="true" />
+            <element signature="e#5669#5678#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -452,7 +700,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="e#601#610#0" expanded="true" />
+            <element signature="e#820#829#0" expanded="true" />
+            <element signature="e#1308#1317#0" expanded="true" />
+            <element signature="e#1508#1517#0" expanded="true" />
+            <element signature="e#1779#1788#0" expanded="true" />
+            <element signature="e#2437#2446#0" expanded="true" />
+            <element signature="e#2970#2979#0" expanded="true" />
+            <element signature="e#3107#3116#0" expanded="true" />
+            <element signature="e#3302#3311#0" expanded="true" />
+            <element signature="e#3573#3582#0" expanded="true" />
+            <element signature="e#4369#4378#0" expanded="true" />
+            <element signature="e#5409#5418#0" expanded="true" />
+            <element signature="e#5669#5678#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -478,7 +740,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#601#610#0" expanded="true" />
+            <element signature="e#820#829#0" expanded="true" />
+            <element signature="e#1308#1317#0" expanded="true" />
+            <element signature="e#1508#1517#0" expanded="true" />
+            <element signature="e#1779#1788#0" expanded="true" />
+            <element signature="e#2437#2446#0" expanded="true" />
+            <element signature="e#2970#2979#0" expanded="true" />
+            <element signature="e#3107#3116#0" expanded="true" />
+            <element signature="e#3302#3311#0" expanded="true" />
+            <element signature="e#3573#3582#0" expanded="true" />
+            <element signature="e#4369#4378#0" expanded="true" />
+            <element signature="e#5409#5418#0" expanded="true" />
+            <element signature="e#5669#5678#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -493,19 +769,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedStack.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <first_editor relative-caret-position="289">
+            <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
             <folding />
           </first_editor>
           <second_editor />
@@ -514,9 +782,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="113" column="2" lean-forward="false" selection-start-line="113" selection-start-column="2" selection-end-line="113" selection-end-column="2" />
+        <state relative-caret-position="306">
+          <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedStack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3145">
+          <caret line="185" column="1" lean-forward="false" selection-start-line="185" selection-start-column="1" selection-end-line="185" selection-end-column="1" />
+          <folding>
+            <element signature="e#601#610#0" expanded="true" />
+            <element signature="e#820#829#0" expanded="true" />
+            <element signature="e#1308#1317#0" expanded="true" />
+            <element signature="e#1508#1517#0" expanded="true" />
+            <element signature="e#1779#1788#0" expanded="true" />
+            <element signature="e#2437#2446#0" expanded="true" />
+            <element signature="e#2970#2979#0" expanded="true" />
+            <element signature="e#3107#3116#0" expanded="true" />
+            <element signature="e#3302#3311#0" expanded="true" />
+            <element signature="e#3573#3582#0" expanded="true" />
+            <element signature="e#4369#4378#0" expanded="true" />
+            <element signature="e#5409#5418#0" expanded="true" />
+            <element signature="e#5669#5678#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,6 +1,6 @@
 // Name         : LinkedStack.h
 // Modified     : Kevin Tran
-// Version      : 1.02 -- Fixed push method.
+// Version      : 1.03 -- Fixed constructor.
 // Description  : LinkedStack class implements itself as if it was a LinkedList
 // but behaviorally acts as if it was a Stack. It's public methods are there as
 // if it was a Stack. It's private variables are similar to those seen in
@@ -25,8 +25,8 @@ struct node{
 
 template <class T>
 class LinkedStack {
-
-    //curSize is the current number of elements inside the LinkedStack can have 
+private:
+    //curSize is the current number of elements inside the LinkedStack can have
     //while size is the maximum number of elements that a LinkedStack can hold.
     int size, curSize;
 
@@ -47,7 +47,7 @@ public:
     virtual ~LinkedStack();
 };
 
-//currentSize outputs the number of elements currently in the LinkedStack.  
+//currentSize outputs the number of elements currently in the LinkedStack.
 template <class T>
 int LinkedStack<T>::getElementCount(){
     return this->curSize;
@@ -63,9 +63,10 @@ LinkedStack<T>::LinkedStack(int sizeSet) {
     //console and default the size to unlimited (size to -1)
     if(sizeSet<-1 || sizeSet==0){
         cout<<"Size cannot be zero or less than -1. All are unknown operation "
-                << "values. Defaulted to unlimited (-1). ";
+            << "values. Defaulted to unlimited (-1). ";
         sizeSet=-1;
     }
+    this->curSize=0;
     this->size = sizeSet;
 }
 
@@ -121,8 +122,8 @@ void LinkedStack<T>::push(T& data1){
         this->front->data=data1;
         this->curSize++;
 
-    //else if the LinkedStack is not full at the moment, make another node next
-    //to it so new data can be added to the rear.
+        //else if the LinkedStack is not full at the moment, make another node next
+        //to it so new data can be added to the rear.
     }else if(!isFull()){
         this->back->next = new node<T>;
         this->back=back->next;
